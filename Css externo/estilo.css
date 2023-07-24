@@ -1,0 +1,16 @@
+header {
+    height: 180px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+header>ul {
+    width: 550px;
+    font-size: 11px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid red;
+    margin-left: 45%;
+    margin-top: 40px;
+}
