@@ -3,7 +3,7 @@ header {
     border: 1px solid rgb(255, 0, 0);
 }
 
-header>ul {
+ul {
     width: 550px;
     font-size: 11px;
     list-style-type: none;
@@ -13,4 +13,47 @@ header>ul {
     border: 1px solid red;
     margin-left: 45%;
     margin-top: 40px;
+}
+
+nav{
+    width: 80%;
+    height: 48em;
+    display: flex;
+    border: 1px solid red;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: -70px;
+
+}
+
+#spot{
+    border: 1px solid red;
+    width: 39em;
+    height: 300px;
+}
+
+#spot1{
+    border: 1px solid red;
+    width: 360px;
+    height: 300px;
+    margin-left: 2%;
+}
+
+#spot2{
+    border: 1px solid red;
+    width: 31%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+footer>ul {
+    margin-left: 25%;
+}
+
+footer>div {
+    margin-left: 35%;
 }
