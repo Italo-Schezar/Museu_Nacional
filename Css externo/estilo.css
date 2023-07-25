@@ -1,6 +1,13 @@
+body {
+    background: #f4f2ec url(../Imagem/fundo.png) repeat-x;
+	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
 header {
     height: 180px;
     border: 1px solid rgb(255, 0, 0);
+    background-image: url(../Imagem/fundo.png);
+ 
 }
 
 header>ul, footer>ul {
@@ -13,32 +20,39 @@ header>ul, footer>ul {
     border: 1px solid red;
     margin-left: 45%;
     margin-top: 40px;
+    z-index: 2;
 }
 
 nav{
     width: 1025px;
-    height: 52em;
+    height: 73em;
     display: flex;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
     justify-content:space-between;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: 10%;
     margin-top: -70px;
-
+    
 }
 
 #spot{
+    background-image: url(../Imagem/museu.png);
     border: 1px solid red;
-    width: 39em;
-    height: 300px;
+    width: 54em;
+    height: 325px;
+    background-color: white;
+    z-index: 1;
 }
 
 #spot1{
+    background-image: url(../Imagem/depoimento.png) ;
     border: 1px solid red;
-    width: 360px;
-    height: 300px;
+    width: 340px;
+    height: 320px;
     margin-left: 2%;
+    background-color: white;
+    z-index: 1;
 }
 
 .spot2{
@@ -47,7 +61,7 @@ nav{
     height: 500px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
     flex-wrap: wrap;
     display: flex;
 }
@@ -59,7 +73,7 @@ nav{
 }
 
 #contato1{
-    border: 1px solid red;
+    border: 1px solid #f4f2ec;
     height: 31.2em;
     width: 420px;
 }
@@ -70,17 +84,32 @@ h3{
 
 #galeria{
     border: 1px solid red;
-    height: 21em;
+    height: 30em;
     width: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+#galeria h3 {
+    width: 300px;
+}
+
+#img{
+    height: 100px;
+    width: 90px;
+    background-image: url(../Imagem/fundo-foto.png);
+    padding: 17px 15px 17px 15px;
 }
 
 #ingresso {
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 10px;
 }
 
 footer>ul {
     margin-left: 25%;
+    margin-top: 5%;
 }
 
 footer>div {
@@ -97,5 +126,5 @@ footer>div {
 
 #submit {
     margin-left: 70px;
-    margin-top: 12px;
+    margin-top: 5px;
 }
