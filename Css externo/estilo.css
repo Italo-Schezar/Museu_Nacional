@@ -1,0 +1,101 @@
+header {
+    height: 180px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+header>ul, footer>ul {
+    width: 550px;
+    font-size: 11px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid red;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+
+nav{
+    width: 1025px;
+    height: 52em;
+    display: flex;
+    border: 1px solid red;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: -70px;
+
+}
+
+#spot{
+    border: 1px solid red;
+    width: 39em;
+    height: 300px;
+}
+
+#spot1{
+    border: 1px solid red;
+    width: 360px;
+    height: 300px;
+    margin-left: 2%;
+}
+
+.spot2{
+    border: 1px solid red;
+    width: 31%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#contato{
+    border: 1px solid red;
+    height: 10em;
+    width: 420px;
+}
+
+#contato1{
+    border: 1px solid red;
+    height: 31.2em;
+    width: 420px;
+}
+
+h3{
+    text-align: center;
+}
+
+#galeria{
+    border: 1px solid red;
+    height: 21em;
+    width: 420px;
+}
+
+#ingresso {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer>ul {
+    margin-left: 25%;
+}
+
+footer>div {
+    margin-left: 35%;
+}
+
+#maps{
+    margin-top: -120px;
+}
+
+#historia{
+    margin-top: -110px;
+}
+
+#submit {
+    margin-left: 70px;
+    margin-top: 12px;
+}
