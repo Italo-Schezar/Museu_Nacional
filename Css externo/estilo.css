@@ -52,9 +52,18 @@ nav{
 #spot{
     background-image: url(../Imagem/museu.png);
     width: 54em;
-    height: 325px;
-    background-color: white;
+    height: 320px;
     z-index: 1;
+    position: relative;
+}
+
+#spot:hover{
+    animation: animacao_spot 2s 0s infinite alternate;
+    position: relative;
+    box-shadow: 10px 10px 20px black;
+    width: 300px;
+    height: 400px;
+    z-index: 0;
 }
 
 #spot1{
@@ -170,4 +179,23 @@ footer>div {
 
 #titulo {
     margin-left: -120px ;
+}
+
+/* Xx--------------------- ANIMAÇÃO ----------------------xX */
+
+@keyframes animacao_spot {
+    from{
+        width: 52em;
+        height: 270px;
+        z-index: 1;
+    }
+    
+
+    to {
+        background-image: url(../Imagem/museu.png);
+        width: 53.7em;
+        height: 320px;
+        z-index: 1;
+    }
+
 }
