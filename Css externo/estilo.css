@@ -165,5 +165,9 @@ footer>div {
 
 #espacamento {
     margin-top: -9.8px;
-   
+   text-align: left;
+}
+
+#titulo {
+    margin-left: -120px ;
 }
