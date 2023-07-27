@@ -5,29 +5,42 @@ body {
 
 header {
     height: 180px;
-    border: 1px solid rgb(255, 0, 0);
     background-image: url(../Imagem/fundo.png);
  
 }
 
 header>ul, footer>ul {
     width: 550px;
-    font-size: 11px;
+    font-size: 13px;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border: 1px solid red;
     margin-left: 45%;
     margin-top: 40px;
     z-index: 2;
+}
+
+header>ul a, footer>ul a {
+    text-decoration: none;
+    color: rgb(168, 110, 19);
+}
+
+header>ul a:hover, footer>ul a:hover {
+    color: rgb(24, 146, 34);
+    text-decoration: underline;
+}
+
+
+header img {
+    padding: 0em 10em;
+    position: absolute;
 }
 
 nav{
     width: 1025px;
     height: 73em;
     display: flex;
-    border: 1px solid rgb(255, 0, 0);
     justify-content:space-between;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,7 +51,6 @@ nav{
 
 #spot{
     background-image: url(../Imagem/museu.png);
-    border: 1px solid red;
     width: 54em;
     height: 325px;
     background-color: white;
@@ -47,7 +59,6 @@ nav{
 
 #spot1{
     background-image: url(../Imagem/depoimento.png) ;
-    border: 1px solid red;
     width: 340px;
     height: 320px;
     margin-left: 2%;
@@ -56,26 +67,39 @@ nav{
 }
 
 .spot2{
-    border: 1px solid red;
     width: 31%;
     height: 500px;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-wrap: wrap;
     display: flex;
+    text-align: left;
 }
 
 #contato{
-    border: 1px solid red;
-    height: 10em;
-    width: 420px;
+    height: 13em;
+    width: 600px;
+    margin-top: -22px;
+    background-color: rgb(241, 231, 204)
+}
+
+#contato h3{
+    text-transform: uppercase;
+    color: rgb(141, 94, 41);
 }
 
 #contato1{
     border: 1px solid #f4f2ec;
     height: 31.2em;
     width: 420px;
+    margin-top: -20px;
+}
+
+#contato1 h3 {
+    text-transform: uppercase;
+    color: rgb(13, 116, 22);
+    text-align: left;
 }
 
 h3{
@@ -83,16 +107,17 @@ h3{
 }
 
 #galeria{
-    border: 1px solid red;
     height: 30em;
     width: 420px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    background-color: rgb(235, 231, 221);
 }
 
 #galeria h3 {
     width: 300px;
+    color: rgb(141, 94, 41);
 }
 
 #img{
@@ -126,5 +151,19 @@ footer>div {
 
 #submit {
     margin-left: 70px;
-    margin-top: 5px;
+    margin-top: 15px;
+    background-color: rgb(155, 146, 113);
+    color: #f4f2ec;
+    padding: 4px;
+}
+
+#espacamento h3{
+    text-transform: uppercase;
+    color: rgb(13, 116, 22);
+    text-align: left;
+}
+
+#espacamento {
+    margin-top: -9.8px;
+   
 }
